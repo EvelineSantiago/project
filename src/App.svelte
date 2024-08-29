@@ -1,10 +1,10 @@
-<script lang="ts">
-  import { Router, Route, Link } from 'svelte-routing';
-  import Home from './Home.svelte';
-  import GetStarted from './routes/GetStarted.svelte';
-  import plantLogo from './assets/plant-logo.svg';
+<script>
+  import { Router, Route, Link } from "svelte-routing";
+  import Home from "./Home.svelte";
+  import GetStarted from "./routes/GetStarted.svelte";
+  import plantLogo from "./assets/plant-logo.svg";
 
-  export let url = '';
+  export let url = "";
 </script>
 
 <Router {url}>
@@ -25,7 +25,7 @@
 
 <style>
   nav {
-    background-color: #4CAF50; /* Change this to your desired color */
+    background-color: #4caf50; /* Change this to your desired color */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add dropdown shadow */
     padding: 1rem;
   }
@@ -33,6 +33,7 @@
   nav :global(a) {
     color: white;
     text-decoration: none;
+    display: flex;
   }
 
   h1 {
@@ -40,7 +41,7 @@
   }
 
   .logo {
-    height: 2rem;
+    height: 3rem;
     margin-right: 1rem;
   }
 </style>
