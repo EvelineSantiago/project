@@ -19,7 +19,7 @@
   </main>
 
   <footer>
-    <p>&copy; 2023 Kaáuni. Todos os direitos reservados.</p>
+    <p>&copy; 2024 Kaáuni. Todos os direitos reservados.</p>
   </footer>
 </Router>
 
