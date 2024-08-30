@@ -1,4 +1,4 @@
-<script>
+<script lang="js">
   import { Router, Route, Link } from "svelte-routing";
   import Home from "./Home.svelte";
   import GetStarted from "./routes/GetStarted.svelte";
